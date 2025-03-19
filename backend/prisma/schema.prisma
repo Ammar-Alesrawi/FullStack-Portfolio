@@ -41,3 +41,4 @@ model Skill {
   name      String    @unique
   projects  Project[] @relation("ProjectSkills")
 }
+
